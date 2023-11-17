@@ -1,0 +1,24 @@
+/* DrumMachine.css */
+
+#drum-machine {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.drum-pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    margin: 10px; /* Adjust the margin as needed */
+    background-color: #3498db; /* Example background color */
+    color: #fff; /* Example text color */
+    font-size: 24px; /* Adjust the font size as needed */
+    cursor: pointer;
+}
+
+/* Add additional styling as needed */
